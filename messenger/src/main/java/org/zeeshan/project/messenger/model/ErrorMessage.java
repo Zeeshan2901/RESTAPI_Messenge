@@ -10,7 +10,7 @@ public class ErrorMessage {
 	private String documentation;
 	
 	public ErrorMessage() {
-		
+		System.out.println("");
 	}
 	
 	public ErrorMessage(String errorMessage, int errorCode, String documentation) {
